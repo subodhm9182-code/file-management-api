@@ -8,7 +8,7 @@ async function bootstrap() {
 
   // ✅ Enable CORS
   app.enableCors({
-    origin: 'http://localhost:4200', // Angular app
+    origin: 'https://file-management-ui.onrender.com', // Angular app
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
   });
